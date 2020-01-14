@@ -41,7 +41,7 @@ h4 {
 }
 
 a {
-  color: #b5b3b4;
+  color: #514f4f;
   text-decoration: none;
   /* No underlining */
 }
@@ -54,10 +54,32 @@ a:hover {
 
 a:visited {
   /* visited link */
-  color: #ffbe8c;
+  color: #ffd89b;
 }
 
 a:active {
   /* selected link */
   color: #b5b3b4;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 2px solid #514f4f;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  display: inline-block;
+  color: #ffffff !important;
+  /* needed to override the default link color */
+  background-color: #ffd89b;
+  border: 2px solid #ffd89b;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s opacity;
 }
