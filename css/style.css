@@ -3,7 +3,6 @@ Colors used:
 Primary Color (Peach): #ffd89b;
 Secondary Color (Grey): #b5b3b4;
 */
-
 body {
   background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
@@ -41,19 +40,24 @@ h4 {
   font-weight: 700;
 }
 
-
 a {
   color: #b5b3b4;
-  text-decoration: none; /* No underlining */
-}
-a:hover {
-  color: #ffd89b;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: none;
+  /* No underlining */
 }
 
-a:visited { /* visited link */
+a:hover {
+  color: #ffd89b;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+
+a:visited {
+  /* visited link */
   color: #ffbe8c;
 }
-a:active { /* selected link */
-  color: #514f4f;
+
+a:active {
+  /* selected link */
+  color: #b5b3b4;
 }
