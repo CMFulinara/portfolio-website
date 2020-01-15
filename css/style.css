@@ -92,6 +92,15 @@ a:active {
 header {
   text-align: center;
   padding: 10px 0;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 200px;
 }
 
 .container {
@@ -112,4 +121,27 @@ header {
 
 .logo {
   max-width: 250px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #514f4f;
+}
+
+#hero {
+  background-color: #ffffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
