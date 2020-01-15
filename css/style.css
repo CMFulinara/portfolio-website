@@ -3,7 +3,6 @@ Colors used:
 Primary Color (Peach): #ffd89b;
 Secondary Color (Grey): #b5b3b4;
 */
-
 body {
   background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
@@ -90,6 +89,10 @@ a:active {
 }
 
 /* Layout styling */
+header {
+  text-align: center;
+  padding: 10px 0;
+}
 
 .container {
   padding: 0 15px;
@@ -104,5 +107,9 @@ a:active {
 }
 
 .kerning {
-  letter-spacing:-2px;
+  letter-spacing: -2px;
+}
+
+.logo {
+  max-width: 250px;
 }
