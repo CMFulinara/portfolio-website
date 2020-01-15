@@ -3,6 +3,7 @@ Colors used:
 Primary Color (Peach): #ffd89b;
 Secondary Color (Grey): #b5b3b4;
 */
+
 body {
   background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
@@ -79,7 +80,7 @@ a:active {
 .button:hover {
   display: inline-block;
   color: #ffffff !important;
-  /* needed to override the default link color */
+  /* to override the default link color */
   background-color: #ffd89b;
   border: 2px solid #ffd89b;
   font-weight: 400;
@@ -96,4 +97,12 @@ a:active {
 
 .row {
   margin: 25px 0;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+.kerning {
+  letter-spacing:-2px;
 }
