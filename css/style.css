@@ -87,3 +87,9 @@ a:active {
   border-radius: 5px;
   transition: 0.2s opacity;
 }
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
