@@ -91,7 +91,7 @@ a:active {
 /* Layout styling */
 header {
   text-align: center;
-  padding: 10px 0;
+  padding: 0px 0;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
   box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
