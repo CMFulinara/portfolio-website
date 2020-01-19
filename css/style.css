@@ -145,3 +145,8 @@ nav>ul>li>a {
   display: inline-block;
   width: 100%;
 }
+
+.footer {
+  padding: 0px 15px;
+  text-align: center;
+}
