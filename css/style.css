@@ -146,6 +146,11 @@ nav>ul>li>a {
   width: 100%;
 }
 
+.project {
+  padding: 0px 15px;
+  text-align: center;
+}
+
 .footer {
   padding: 0px 15px;
   text-align: center;
