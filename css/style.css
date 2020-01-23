@@ -202,6 +202,9 @@ Large devices (1024px or larger)
     clear: both;
     display: table;
   }
+
+  #about-page h3 { margin-top: 0;}
+
 }
 
 /* ==============================
