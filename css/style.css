@@ -100,7 +100,7 @@ header {
 }
 
 main {
-  padding-top: 200px;
+  padding-top: 99px;
 }
 
 .container {
@@ -159,19 +159,10 @@ nav>ul>li>a {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {}
-
-/* ==============================
-Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
-  }
-
-  main {
-    padding-top: 99px;
   }
 
   nav {
@@ -203,9 +194,15 @@ Large devices (1024px or larger)
     display: table;
   }
 
-  #about-page h3 { margin-top: 0;}
-
+  #about-page h3 {
+    margin-top: 0;
+  }
 }
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {}
 
 /* ==============================
 X-large devices (1440px or larger)
