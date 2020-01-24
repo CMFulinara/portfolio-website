@@ -190,6 +190,10 @@ Medium devices (640px and larger)
     display: block;
   }
 
+  h1 {
+    text-align: center;
+  }
+
   h2 {
     text-align: center;
   }
