@@ -223,8 +223,12 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-  .column col-md-6 col-lg-7 {
+  .col-md-6{
     width: 60%;
+  }
+
+  .col-lg-7{
+    width: 40%;
   }
 
   [class*="col-"] {
