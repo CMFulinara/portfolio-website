@@ -174,12 +174,24 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
+  body {
+    font-size: 18px;
+  }
+
   #hero h1 {
+    text-align: center;
+  }
+
+  #work h1 {
     text-align: center;
   }
 
   #hero span {
     display: block;
+  }
+
+  h2 {
+    text-align: center;
   }
 
   .col-md-6 {
