@@ -48,6 +48,12 @@ img {
   width: 100%;
 }
 
+/*circle avatar*/
+/*.avatar {
+  width: 250px;
+  height: 270px;
+  border-radius: 50%;
+}*/
 a {
   color: #514f4f;
   text-decoration: none;
