@@ -92,6 +92,10 @@ a:active {
   transition: 0.2s opacity;
 }
 
+.center-button {
+  text-align: center;
+}
+
 /* Layout styling */
 header {
   text-align: center;
