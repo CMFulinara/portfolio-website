@@ -176,9 +176,9 @@ navtoggle.responsive nav {
   padding: 0 0 10px;
 }
 
-/*.navtoggle.responsive li {
+.navtoggle.responsive li {
   display: block;
-}*/
+}
 
 #hero {
   background-color: #ffffff;
