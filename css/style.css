@@ -101,7 +101,8 @@ a:active {
 header {
   /*text-align: center;*/
   background-color: white;
-  padding: 0px 0;
+  /*padding: 0px 0;*/
+  padding: 10px 0 4px;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
   box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.25);
@@ -110,7 +111,7 @@ header {
 }
 
 main {
-  padding-top: 135px;
+  padding-top: 130px;
 }
 
 .container {
@@ -130,12 +131,13 @@ main {
 }
 
 .logo {
-  max-width: 175px;
+  max-width: 225px;
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -151,6 +153,8 @@ nav>ul {
   right: 0;
   top: 2px;
   font-size: 20px;
+  line-height: 2.2;
+  /*padding-right: 25;*/
 }
 
 nav>ul>li>a {
@@ -195,6 +199,10 @@ Medium devices (640px and larger)
 
   nav>ul>li {
     display: inline-block;
+  }
+
+  nav>ul {
+    margin: 1em 0;
   }
 
   .navtoggle li:not(:last-child) {
