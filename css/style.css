@@ -233,6 +233,15 @@ Medium devices (640px and larger)
     max-width: 250px;
   }
 
+  /*.about{
+    max-width:600px;
+    text-align: center;
+  }*/
+
+  .Bodhi {
+    max-width: 900px;
+  }
+
   body {
     font-size: 18px;
   }
